@@ -9,6 +9,11 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
+.site-header_fix{
+    position:fixed;
+    width:100%;
+    background:white;
+}
 
 .site-title {
     font-size: 26px;

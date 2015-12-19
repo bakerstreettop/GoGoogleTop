@@ -1,8 +1,8 @@
-<header class="site-header">
+<header class="site-header site-header_fix">
 
-  <div class="wrapper">
+  <div class="wrapper" style="position:relative">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.ico_url }}" style="height:56px;margin-left:-99px;position:absolute"/>{{ site.title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -25,3 +25,4 @@
   </div>
 
 </header>
+<div  class="site-header" style="z-index:-999"></div>
