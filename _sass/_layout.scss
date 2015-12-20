@@ -102,6 +102,19 @@
 /**
  * Site footer
  */
+.site-footer_fixed {
+    position:fixed;
+    background:white;
+    bottom:0;
+    width:100%;
+    min-height:70px; 
+    font-size:14px;
+}
+.site-footer_discription{
+    text-align:center;
+    font-size:12px;
+    color:#ccc
+}
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
