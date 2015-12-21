@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+　Hi, my name is Sherlock Holmes, (aha, as your think, this is not my true name, but that is not important), this is a website for write something about technology, google just like a teacher, google is great, i create this website for learn more, so if I did something inappropriate, and I'm sorry, you can send me email. Thank you.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+-about me:
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+---website:[{{ site.website }}]({{ site.website }})
+
+---mywebsite:[{{ site.mywebiste }}]({{ site.mywebiste }})
+
+---email:[{{ site.email }}](mailto:{{ site.email }})
+
+---github:[{{ site.github }}]({{ site.github }})
+ 
